@@ -17,7 +17,7 @@ reg = re.compile('(\d{4}\s\d{4}\s\d{4})') # Uses re for finding the pattern of '
 
 trainer_codes = []
 
-def load_trainer_codes(): # Loads the trainer codes file if it exists
+def load_trainer_codes(): # Loads the trainer codes file if it exists, adds all existing trainer codes to the list insuring no duplicates are logged
   if exists('trainer_codes.txt'):
     with open('trainer_codes.txt') as f:
       for trainer_code in f:
