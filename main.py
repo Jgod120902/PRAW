@@ -1,3 +1,7 @@
+# Pokemon Go Trainer Code Scraper
+# 09/29/2021
+# Created by Jgod120902
+
 import creds
 import praw
 import re
