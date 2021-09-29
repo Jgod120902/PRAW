@@ -1,0 +1,5 @@
+my_client_id = 'YOUR_CLIENT_ID'
+my_client_secret = 'YOUR_CLIENT_SECRET'
+my_user_agent = 'YOUR_USER_AGENT'
+my_username = 'YOUR_USERNAME'
+my_password = 'YOUR_PASSWORD'
